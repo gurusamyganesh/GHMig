@@ -1,6 +1,7 @@
 def call(String inputVal = 'test') {
     echo "Hi ${inputVal}."
     executeStages();
+    echo "Hi stages"
 }
 
 def executeStages() {
