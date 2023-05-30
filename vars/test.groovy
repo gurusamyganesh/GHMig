@@ -1,5 +1,5 @@
-def call(String inputVal = 'test') {
-    echo "Hi ${inputVal}."
+def call() {
+    echo "Hi there"
     executeStages();
     echo "Hi stages"
 }
