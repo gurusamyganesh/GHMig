@@ -1,23 +1,23 @@
-def executeStages() {
-    checkout();
-    build();
-    test();
-    deploy();
+def executeStages () {
+    checkout()
+    build()
+    test()
+    deploy()
 }
 
-def checkout() {
+def checkout () {
     echo "checking out.."
 }
 
 
-def build() {
+def build () {
     echo "building classess.."
 }
 
-def test() {
+def test () {
     echo "testing services.."
 }
 
-def deploy() {
+def deploy () {
     echo "deploying.."
 }
